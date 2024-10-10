@@ -1,0 +1,21 @@
+{
+    "additional_properties": {},
+    "device_id": None,
+    "module_id": None,
+    "tags": None,
+    "properties": <azure.iot.hub.protocol.models.twin_properties_py3.TwinProperties object at 0x7f20a29e92d0>,
+    "etag": None,
+    "version": None,
+    "device_etag": None,
+    "status": None,
+    "status_reason": None,
+    "status_update_time": None,
+    "connection_state": None,
+    "last_activity_time": None,
+    "cloud_to_device_message_count": None,
+    "authentication_type": None,
+    "x509_thumbprint": None,
+    "capabilities": None,
+    "device_scope": None,
+    "parent_scopes": None
+}

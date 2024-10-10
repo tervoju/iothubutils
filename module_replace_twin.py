@@ -60,10 +60,8 @@ if __name__ == '__main__':
     config_file = sys.argv[4]
     with open(config_file, 'r') as f:
         config = json.load(f)
-    
-    print(config["desired_properties"])
 
-    twin = config[ "desired_properties"]
+    twin = config[ "desired"]
 
     # call module_twin function with desired configuration
 

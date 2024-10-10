@@ -1,8 +1,6 @@
 {
-    "desired_properties" : {
-        "desired": {
-            "property1": "XXXXXXXXXX",
-            "property2": "2222222222"
-        }
+    "desired": {
+        "property88": 888,
+        "property76": 76
     }
 }

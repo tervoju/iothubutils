@@ -1,0 +1,31 @@
+{
+    "additional_properties": {},
+    "desired": {
+        "$metadata": {
+            "$lastUpdated": "2024-10-10T11:41:13.1940805Z",
+            "$lastUpdatedVersion": 22,
+            "property3": {
+                "$lastUpdated": "2024-10-10T11:41:13.1940805Z",
+                "$lastUpdatedVersion": 22
+            },
+            "property4": {
+                "$lastUpdated": "2024-10-10T11:40:06.0947175Z",
+                "$lastUpdatedVersion": 21
+            },
+            "property69": {
+                "$lastUpdated": "2024-10-10T11:41:13.1940805Z",
+                "$lastUpdatedVersion": 22
+            }
+        },
+        "$version": 22,
+        "property3": 1.0,
+        "property4": 2.0,
+        "property69": 6969699
+    },
+    "reported": {
+        "$metadata": {
+            "$lastUpdated": "0001-01-01T00:00:00.0000000Z"
+        },
+        "$version": 1
+    }
+}

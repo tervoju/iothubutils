@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch module_patch_twin",
+            "program": "${workspaceFolder}/${input:programName}",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "args": [
+                "HostName=ixxx",
+                "iotedgedps01",
+                "SampleModule",
+                "${workspaceFolder}/config_module.json"
+            ],
+            "envFile": "${workspaceFolder}/local.env"  
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "programName",
+            "description": "Select the Python file to launch",
+            "options": [
+                "module_patch_twin.py",
+                "module_replace_twin.py"
+            ]
+        }
+    ]
+}
