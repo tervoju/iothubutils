@@ -9,39 +9,39 @@
             "logging_level": "info"
         },
         "signal_mapping": {
-            "middle.brakeRearCircuitPressure_01bar": {
+            "middle/brakeRearCircuitPressurebar_01bar": {
                 "name": "Rear Axle Brake Pressure",
                 "scaling": 0.1
             },
-            "rear.frontBrakeCircuitPressure_01bar": {
+            "rear_frontBrakeCircuitPressure_01bar": {
                 "name": "Front Axle Brake Pressure",
                 "scaling": 0.1
             },
-            "rearbrakeHydraulicOilTemp_01C": {
+            "rear_brakeHydraulicOilTemp_01C": {
                 "name": "Brake Hydraulic Oil Temperature",
                 "scaling": 0.1
             },
-            "rear.steeringPumpCircuitPressure_01bar": {
+            "rear_steeringPumpCircuitPressure_01bar": {
                 "name": "Steering Pump Pressure",
                 "scaling": 0.1
             },
-            "chair.engineRPM": {
+            "chair_engineRPM": {
                 "name": "Engine RPM",
                 "scaling": 1
             },
-            "chair.machineSpeed_01km_h": {
+            "chair_machineSpeed_01km_h": {
                 "name": "Machine Speed",
                 "scaling": 0.1
             },
-            "chair.currentGear": {
+            "chair_currentGear": {
                 "name": "Actual Gear",
                 "scaling": 1
             },
-            "middle.ParkingBrakeReleased": {
+            "middle_ParkingBrakeReleased": {
                 "name": "Parking Brake Released",
                 "scaling": 1
             },
-            "chair.throttleRequest_001perc": {
+            "chair_throttleRequest_001perc": {
                 "name": "Throttle Request",
                 "scaling": 0.01
             }
