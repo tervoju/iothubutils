@@ -1,50 +1,13 @@
 {
     "desired": {
-        "signalCollectorFifo": {
-            "knowledgebox_socket": "192.168.20.250:8000",
-            "sample_interval_ms": 500,
-            "timeout_interval_ms": 300000,
+        "CotorFifo": {
+            "socket": "192..250:8000",
+            "mple_interval_ms": 500,
+            "timeouterval_ms": 300000,
             "websocket_create_interval_ms": 5000,
-            "hub_message_interval_ms": 500,
-            "logging_level": "info"
+            "hub_mee_interval_ms": 500,
+            "logg_level": "info"
         },
-        "signal_mapping": {
-            "middle.brakeRearCircuitPressure_01bar": {
-                "name": "Rear Axle Brake Pressure",
-                "scaling": 0.1
-            },
-            "rear.frontBrakeCircuitPressure_01bar": {
-                "name": "Front Axle Brake Pressure",
-                "scaling": 0.1
-            },
-            "rearbrakeHydraulicOilTemp_01C": {
-                "name": "Brake Hydraulic Oil Temperature",
-                "scaling": 0.1
-            },
-            "rear.steeringPumpCircuitPressure_01bar": {
-                "name": "Steering Pump Pressure",
-                "scaling": 0.1
-            },
-            "chair.engineRPM": {
-                "name": "Engine RPM",
-                "scaling": 1
-            },
-            "chair.machineSpeed_01km_h": {
-                "name": "Machine Speed",
-                "scaling": 0.1
-            },
-            "chair.currentGear": {
-                "name": "Actual Gear",
-                "scaling": 1
-            },
-            "middle.ParkingBrakeReleased": {
-                "name": "Parking Brake Released",
-                "scaling": 1
-            },
-            "chair.throttleRequest_001perc": {
-                "name": "Throttle Request",
-                "scaling": 0.01
-            }
-        }
+        
     }
 }
